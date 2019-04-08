@@ -1,7 +1,18 @@
 /*Title Bar*/
+.cardLink {
+    text-decoration: none;
+    color: gray;
+}
+.cardLink:hover {
+    text-decoration: none;
+    color: #5998ff;
+}
 #titleBar{
     display: inline-block;
     margin-top: 1%;
+}
+#browserBar {
+    margin-bottom: 3%;
 }
 #logo {
   margin-right: 8%;
@@ -25,7 +36,29 @@
     float: right;
     margin-right: 3%;
 }
+.card {
+    margin-bottom: 4%;
+}
+.cardImg {
+    width: 100%;
+    height: 100%;
+}
 /*Menu Bar*/
+#dropdown {
+    display: none;
+    background-color: #d3d3d3;
+    width: 30%;
+    overflow: auto;
+}
+.dropItem {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.dropItem:hover {
+    text-decoration: none;
+    color: white;
+}
 .menuIcon {
     display: inline-block;
     cursor: pointer;

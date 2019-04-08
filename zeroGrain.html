@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <script src="js/global.js"></script>
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <link href="css/product.css" rel="stylesheet" type="text/css">
+        <script src="js/image_swap_library.js"></script>
+        <script src="js/image_swap.js"></script>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="mainStyles.css" rel="stylesheet" type="text/css"> 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <div class="container">
+        <div id="browserBar" class="d-none d-md-block">
+            <div id="titleBar" class="col-md-12">
+              <a id="logo" href="main.html"><img src="img/logo.png" alt="Crow River Dist."></a>
+              <a class="titleLink" href="main.html">Home</a>
+              <a class="titleLink" href="contact.html">Contact</a>
+              <a class="icons" href="login.html"><img src="img/account.png" alt="account" idth="30" height="30"></a>
+              <a class="icons" href="cart.html"><img src="img/cart.png" alt="cart" idth="30" height="30"></a>
+            </div>
+        </div>
+        <div id="mobileBar" class="d-blcok d-md-none">
+            <a><div class="menuIcon" onclick="iconClick(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div></a>
+            <div id="dropdown" class="dropdown-content">
+                <a class="dropItem" href="main.html">Home</a>
+                <a class="dropItem" href="contact.html">Contact</a>
+                <a class="dropItem" href="login.html">Login</a>
+                <a class="dropItem" href="cart.html">Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" id="productImg">
+                <img id="main" src="img/zeroGrain.jpg">
+                <a href="img/zeroGrain.jpg" onclick="swap(this); return false;"><img class="thumbnail" src="img/zeroGrain.jpg"></a>
+                <a href="img/zeroGrainBack.jpg" onclick="swap(this); return false;"><img class="thumbnail" src="img/zeroGrainBack.jpg"></a>
+                <a href="img/zeroGrainInfo.jpg" onclick="swap(this); return false;"><img class="thumbnail" src="img/zeroGrainInfo.jpg"></a>
+            </div>
+            <div class="col-md-4" id="productInfo">
+                <h2>Nutrish Zero Grain Natural Dry Dog Food</h2>
+                <h4>Price: $41.98</h4>
+                <ul>
+                    <li>Real salmon</li>
+                    <li>Grain and gluten free</li>
+                    <li>No poultry by-product meal or filler ingredients</li>
+                    <li>No artificial preservatives, colors, or artificial flavors</li>
+                </ul>
+            </div>
+            <div class="col-md-4" id="addToCart">
+                <button type="button" id="cartBtn">Add To Cart</button>
+            </div>
+            <div class="row">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th><img src="img/zeroGrain.jpg" class="tableImg" alt="Dog Food"></th>
+                        <th><img src="img/diamond.jpg" class="tableImg" alt="Dog Food"></th>
+                        <th><img src="img/nutrish.jpg" class="tableImg" alt="Dog Food"></th>
+                    </tr>
+                    <tr>
+                        <th><b>Product</b></th>
+                        <th><a href="zeroGrain.html">Zero Grain</a></th>
+                        <th><a href="https://www.amazon.com/dp/B000084F1I/ref=psdc_2975360011_t1_B00YXSNXQ8">Diamond Naturals</a></th>
+                        <th><a href="https://www.amazon.com/dp/B00FBT7XAK/ref=psdc_2975360011_t2_B00YXSNXQ8">Nutrish</a></th>
+                    </tr>
+                    <tr>
+                        <th><b>Price</b></th>
+                        <th>$41.98</th>
+                        <th>$35.99</th>
+                        <th>$41.43</th>
+                    </tr>
+                    <tr>
+                        <th><b>Size</b></th>
+                        <th>23 lb</th>
+                        <th>40 lb</th>
+                        <th>40 lb</th>
+                    </tr>
+                    <tr>
+                        <th><b>Ingredients </b></th>
+                        <th>grain-free</th>
+                        <th>grain-free</th>
+                        <th>All Natural</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+.container {
+    margin-bottom: 15px;
+}
+#main {
+    width: 100%;
+    height: 30em;
+}
+#productInfo {
+    padding-top: 1.5%;
+}
+#cartBtn {
+    margin-top: 30%;
+    margin-left: 25%;
+    height: 3em;
+    width: 14em;
+    background-color: #f7dc2a;
+}
+#cartBtn:hover {
+    background-color: #ddc527;
+}
+.thumbnail {
+    width: 10%;
+    height: 10%;
+    margin-top: .5em;
+    margin-right: .5em;
+}
+
+/*
+*
+*Table Styling
+*
+*/
+table {
+    margin-top: 5%;
+}
+table, th, td {
+    border: 0.5px solid rgba(150, 155, 150, .3);
+    border-collapse: collapse;
+}
+table th{
+    text-align: center;
+}
+.tableImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 10%;
+}
+tr:nth-child(even) {
+    background-color: rgba(235, 244, 66, .2);
+}

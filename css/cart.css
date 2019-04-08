@@ -17,19 +17,32 @@
     border-top:  1px solid #E1E8EE;
     border-bottom:  1px solid #E1E8EE;
 }
-.itemImg {
+#itemImg {
     height: 100px;
     width: 100px;
 }
-.description {
+#description {
     padding-top: 10px;
     margin-right: 60px;
     width: 115px;
 }
-
+#quanInput {
+    width: 50%;
+}
 .description span {
     display: block;
     font-size: 14px;
     color: #43484D;
     font-weight: 400;
+}
+#orderInfo {
+    margin-top: 5%;
+}
+#orderBtn {
+    width: 10em;
+    height: 3em;
+    background-color: #f7dc2a;
+}
+#orderBtn:hover {
+    background-color: #ddc527;
 }
