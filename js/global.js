@@ -12,4 +12,9 @@ function iconClick(x) {
     }
 }
 
-$("#datepicker").datepicker();
+function navHome() {
+    location.href = "main.html";
+}
+function addCart() {
+    location.href = "cart.html";
+}
