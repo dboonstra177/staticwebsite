@@ -13,8 +13,8 @@ function iconClick(x) {
 }
 
 function navHome() {
-    window.location = "https://dboonstra177.github.io/staticwebsite/main.html";
+    window.location.href = "https://dboonstra177.github.io/staticwebsite/main.html";
 }
 function addCart() {
-    window.location = "https://dboonstra177.github.io/staticwebsite/cart.html";
+    window.location.href = "https://dboonstra177.github.io/staticwebsite/cart.html";
 }
